@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário contato</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estiloseletores.css">
+    <script type="text/javascript" src="js/validator.js"></script>
+</head>
+
+
+<body>
+    <img src="img/logoprincipal.svg" alt="logo">
+    <h3 class="CONTATO">
+        Entre em contato
+    </h3>
+
+    <form>
+    <div>
+        <input type="nome" onblur="verificaNomeVazio()" id="inputName" class="nome" name="usuario_nome" placeholder="..."/>
+        <label for="nome">Nome</label>
+    </div>
+
+    <div>
+        <input type="fone" onkeydown="verificaTeclaTab(event)" id="inputNumero" class="fone" name="usuario_fone" placeholder="(xx)xx-xx-xx-xx"/>
+        <label for="fone">Fone</label>
+    </div>
+
+    <div>
+        <input type="email" onkeydown="verificaTeclaTab(event, 'true')" id="inputEmail" class="email" name="usuario_email" placeholder="fulano@gmail.com"/>
+        <label for="email">E-mail</label>
+    </div>
+
+    <div>
+        <textarea onsubmit="return validaOpiniao()" id="opiniao name="usuario_opiniao" class="textarea" cols="69" rows="10" placeholder="Deixe sua opinião"></textarea>
+    <div>
+
+    <div > 
+       <button class="button" type="submit" >Enviar</button>
+    </div>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+ p {
+    text-align: justify;
+    text-decoration: none;
+ }
+
+ body {
+    font-family: Helvetica, sans-serif;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .TITULO {
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px; 
+    font-size: 32px;
+ }
+
+ .SUBTITULO{
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+ }
+
+ figure {
+    margin: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgrey;
+ }
+
+ figure img {
+    width: 100%;
+ }
+
+ figcaption {
+    padding-top: 10px;
+    color: grey;
+}
+
+.largura-550 {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.largura-275 {
+    width: 275px;
+    float: right;
+}
+
+
+.CONTATO {
+   color: #3D3D3D;
+   background-color: #E1EDF2;
+   padding: 10px; 
+   font-size: 32px;
+}
+
+.nome{
+   width: 500px;
+   height: 30px;
+}
+
+.fone{
+   width: 500px;
+   height: 30px;
+}
+
+.email{
+   width: 500px;
+   height: 30px;
+}
+
+.caixa{
+   margin-top:auto;
+   width: 500px;
+   height: 300px;
+}
+
+div{
+   padding: 10px;
+}
+
+.button{
+   width: 100px;
+   height: 50px;
+   background: white;
+   font-weight: bold;
+   margin-left: -20px;
+}
+.textarea{
+   height: 300px;
+   width: 500px;
+}
